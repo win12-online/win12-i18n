@@ -2,6 +2,9 @@
 [![PyPI](https://img.shields.io/badge/PyPI-win12%20i18n-blue
 )](https://pypi.org/project/win12-i18n/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/MIT)
+<a href="https://github.com/win12-online/win12-i18n/actions/workflows/lint.yml">
+    <img src="https://github.com/win12-online/win12-i18n/actions/workflows/lint.yml/badge.svg?branch=main&event=push" alt="pyright">
+  </a>
 
 Windows 12 网页版 i18n 管理 CLI 工具。
 
