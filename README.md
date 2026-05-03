@@ -40,7 +40,6 @@ win12-i18n sync -b zh
 
 # 查看某个键在各语言中的值
 win12-i18n show setting.psnl.color
-```
 
 ## 开发
 
@@ -56,7 +55,14 @@ uv pip install -e ".[dev]"
 # 运行测试
 uv run pytest
 ```
-
+### 镜像源
+如果需要换 Pypi 镜像源，可在 ```pyproject.toml``` 文件中添加如下内容（以校园网联合镜像站提供的软件源为例）：
+```
+[[tool.uv.index]]
+name = "mirror"
+url = "https://mirrors.cernet.edu.cn/pypi/web/simple"
+default = true
+```
 ## 依赖
 
 - Python >= 3.10
